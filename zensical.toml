@@ -1,0 +1,62 @@
+[project]
+site_name = "APIS Onboarding"
+site_url = "https://gythaogg.github.io/apis-onboarding/"
+repo_url = "https://github.com/gythaogg/apis-onboarding"
+repo_name = "gythaogg/apis-onboarding"
+
+nav = [
+  { "Home" = "index.md" },
+  { "Introduction: Prosopography" = [
+      { "What is prosopography?" = "introduction/prosopography.md" },
+      { "Research questions and historical sources" = "introduction/research-questions.md" },
+  ] },
+  { "From Historical Sources to Structured Data" = [
+      { "Historical sources" = "data/sources.md" },
+      { "From sources to data" = "data/from-sources-to-data.md" },
+      { "Example: William Shakespeare" = "data/shakespeare-example.md" },
+  ] },
+  { "Data Modelling" = [
+      { "Introduction to data modelling" = "modelling/introduction.md" },
+      { "Entities" = "modelling/entities.md" },
+      { "Relationships" = "modelling/relationships.md" },
+      { "Controlled vocabularies" = "modelling/controlled-vocabularies.md" },
+      { "Uncertainty and confidence" = "modelling/uncertainty.md" },
+      { "Linked open data" = "modelling/linked-open-data.md" },
+  ] },
+  { "APIS" = [
+      { "Introduction" = "apis/introduction.md" },
+      { "Data model" = "apis/data-model.md" },
+      { "Data pipeline" = "apis/data-pipeline.md" },
+  ] },
+  { "Working with APIS" = [
+      { "Data entry" = "working-with-apis/data-entry.md" },
+      { "Custom fields" = "working-with-apis/custom-fields.md" },
+      { "Entering relationships" = "working-with-apis/relationships.md" },
+      { "Zotero references" = "extensions/zotero.md" },
+      { "Detail views" = "working-with-apis/detail-views.md" },
+      { "History and change tracking" = "working-with-apis/history.md" },
+      { "Filtering" = "search/filtering.md" },
+      { "Exporting data" = "search/export.md" },
+      { "RDF representation" = "interoperability/rdf.md" },
+  ] },
+  { "Exploring and Visualising Data" = [
+      { "Network visualisation" = "visualisation/network-visualisation.md" },
+      { "Visualisation Example" = "visualisation/expressions-manuscripts.md" },
+  ] },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "navigation.footer",
+]
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.superfences = {}
