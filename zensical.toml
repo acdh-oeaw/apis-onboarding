@@ -1,8 +1,8 @@
 [project]
 site_name = "APIS Onboarding"
-site_url = "https://gythaogg.github.io/apis-onboarding/"
-repo_url = "https://github.com/gythaogg/apis-onboarding"
-repo_name = "gythaogg/apis-onboarding"
+site_url = "https://acdh-oeaw.github.io/apis-onboarding/"
+repo_url = "https://github.com/acdh-oeaw/apis-onboarding"
+repo_name = "acdh-oeaw/apis-onboarding"
 
 nav = [
   { "Home" = "index.md" },
