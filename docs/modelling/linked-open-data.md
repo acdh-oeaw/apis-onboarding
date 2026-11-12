@@ -3,10 +3,11 @@
 Historical names are ambiguous: the same person or place can appear under different
 spellings, languages, abbreviations, or transliterations across your sources. "Skopje"
 might also appear as "Üsküb", or under a dozen historical variants.
-Linked open data (LOD) is how projects deal with
-that ambiguity. The core idea is to
-link each entity to a stable record in an external database, rather than relying only on
-how it is spelled in your own data.
+[Linked open data
+(LOD)](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data) is how
+projects deal with that ambiguity. The core idea is to link each entity to a
+stable record in an external database, rather than relying only on how it is
+spelled in your own data.
 
 ## Disambiguation
 
