@@ -1,6 +1,6 @@
 ## Entities
 An entity is a concept or an object: a "thing" a project
-records. Projects add whatever else their sources need: Inscription, Monument, Object, Expression,
+records. Projects add whatever else their sources need: Person, Inscription, Place, Monument, Institution,
 Profession, Function, and so on. Which entity types a project uses, and what they're called, is defined by that
 project's own data model. TibSchol, for instance, makes use of four entity types:
 **Person**, **Place**, **Work**, **Instance** to model Tibetan Buddhist scholastic
@@ -21,3 +21,8 @@ A good rule of thumb: if the value is a fact *about* the entity (a name, a date,
 number), it's an attribute. If the value is really another entity in disguise (a place of
 birth, an author), it belongs in a relation instead. See
 [Relationships](relationships.md).
+
+APIS comes with a couple of suggestions for Entities and their attributes. They
+can (and should) be reused, which makes interchanging information between APIS
+instances and other information systems easier. But they can also be adapted
+to the projects needs.
