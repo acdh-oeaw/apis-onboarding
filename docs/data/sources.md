@@ -20,6 +20,16 @@ out.
 Short texts carved or written on a durable object: a monument, a tomb, a building. Often
 fragmentary, and frequently the only surviving trace of a person or event.
 
+## Accounting Books
+
+Handwritten lists of types of employments, payments, and principals.
+
+## Newspaper Articles
+
+Information is not only in the article itself, but also in its metadata: who wrote
+the article, when was it written, for which magazine? Are photographs attached, which
+photographer took those, who is depicted?
+
 ## Other historical records
 
 Administrative registers, parish records, correspondence, legal documents, and anything
